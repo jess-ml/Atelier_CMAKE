@@ -28,6 +28,9 @@ int main(int argc, char *argv[]){
 	}
 	else {printf("Erreur de parametres");}
 	}
+	else if (argc == 3 && strcmp(argv[1], "car") == 0) {
+    printf("%d\n", car(atoi(argv[2])));
+    }
 	else {printf("Erreur de parametres");}
 	return 0;
 }
